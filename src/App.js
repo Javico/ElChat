@@ -10,6 +10,8 @@ function App() {
 
   ReactSession.setStoreType("localStorage");
 
+  //console.log(process.env.REACT_APP_BACKEND_URL)
+
   const [nombre, setNombre] = useState("");
   const [registrado, setRegistrado] = useState(false);
 

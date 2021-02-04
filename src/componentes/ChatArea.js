@@ -1,5 +1,4 @@
 import React, { useRef, useEffect } from 'react';
-import Card from 'react-bootstrap/Card';
 
 const ChatArea = ({mensajes}) => {
 
