@@ -45,7 +45,7 @@ function App() {
           </div>
         )}
 
-        {registrado && <Chat nombre={nombre} />}
+        {registrado && <Chat nombre={nombre} jaja />}
       </Container>
     </div>
   );
